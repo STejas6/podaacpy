@@ -17,7 +17,7 @@ import requests
 import defusedxml.ElementTree as ET
 try:
     from . import podaac as p
-except:
+except exception:
     import podaac as p
 
 class PodaacUtils:
